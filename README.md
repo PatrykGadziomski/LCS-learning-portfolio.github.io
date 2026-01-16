@@ -1,1 +1,0 @@
-# LCS_Learning_Portfolio
