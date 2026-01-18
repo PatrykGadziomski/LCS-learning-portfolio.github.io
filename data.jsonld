@@ -106,7 +106,16 @@
       "schema:previousItem": {
         "@id": "portfolio:vorlesung-3"
       },
-      "schema:content": "<p>Der SPARQL Tag. Das war für mich sehr viel SPARQL, was erstmal verarbeitet werden musste. Was sich mir noch nicht ganz erschlossen hat, ist, für was man SPARQL in der Praxis alles nutzen kann. Aber dafür muss ich die Folien nochmal durchgehen.</p>"
+      "schema:references": [
+        {"@id": "portfolio:sparql-overview"},
+        {"@id": "portfolio:wikidata-sparql-tutorial"},
+        {"@id": "portfolio:wikidata-sparql-query-service"},
+        {"@id": "portfolio:sparql-by-example"},
+        {"@id": "portfolio:wikibooks-sparql"},
+        {"@id": "portfolio:sparql-tutorial"},
+        {"@id": "portfolio:learning-sparql"}
+      ],
+      "schema:content": "<p>An diesem Tag wurde SPARQL vorgestellt. Ich muss zugeben, dass es der Tag war, an dem ich am wenigsten mitgenommen habe. Nicht, weil das Thema nicht spannend ist. Ich finde es unglaublich, was man mit SPARQL alles abfragen kann. Aber ich bin einfach nicht für Online-Vorlesungen gemacht. In einer normalen Vorlesung höre ich zu, achte auf und stelle gelegentlich Fragen. Dabei kann ich mich komplett darauf einstellen. Bei einer Online-Vorlesung funktioniert das nicht, meine Konzentration schweift komplett ab. Aus diesem Grund fiel es mir schwer, der Vorlesung zu folgen, aber ein paar Dinge konnte ich doch mitnehmen.</p><br><p>Mit SPARQL hatte ich bisher nur einen Berührungspunkt: Im Bachelor-Modul „Metadatenmanagement” habe ich es kennengelernt, aber ich muss gestehen, dass ich es bis heute nicht ganz durchblicke. Mir ist durchaus verständlich, wie SPARQL funktioniert, aber die Syntax ist mein echtes Problem. Ich müsste mir theoretisch alle Codes für die Entitäten merken, wenn es keine Liste gibt bzw. ich keine zur Hand habe. Das ist mein größtes Problem. Das ist sehr ungewohnt. Wenn ich Python-Code oder eine SQL-Abfrage schreibe, muss ich normalerweise nichts nachschauen, außer wie die Spalten heißen. Ich weiß allerdings nicht, ob man das so vergleichen kann. Aus diesem Grund und aufgrund meiner mangelnden Online-Konzentration hatte ich Schwierigkeiten, den Übungsaufgaben zu folgen. Ich habe mir aber vorgenommen, das nachzuholen, denn ich sehe ein riesiges Potenzial für Information Retrieval und eventuell auch für meine privaten Projekte, vor allem, da man auch geografische Daten abfragen kann. Was mir tatsächlich leichtfiel, waren die Funktionen in SPARQL wie Filtern oder Gruppieren, da diese sehr ähnlich zu SQL sind.</p><br><p>Ich habe mir vorgenommen, das Buch Learning SPARQL: Querying and Updating with SPARQL von O’Reilly Media durchzuarbeiten, um am Ende behaupten zu können, SPARQL wirklich verstanden zu haben. Da ich aber derzeit kein Projekt habe, in dem ich SPARQL verwenden muss, und auch nicht die Zeit habe, das Buch durchzuarbeiten, wird sich das Thema SPARQL für mich leider noch etwas nach hinten verschieben."
     },
     {
       "@id": "portfolio:vorlesung-5",
@@ -122,7 +131,11 @@
       "schema:previousItem": {
         "@id": "portfolio:vorlesung-4"
       },
-      "schema:content": "<p>An diesem Tag, dem letzten Tag des Teilmoduls, fand ein Workshop zu Open Refine unnd Metafacture statt. Bei Open Refine wurden uterschieldiche Funktionen entlang der Dokumentation gezeigt und ausprobiert. Bei Metafactuer wurden die funktionen anhand des Tutorials gezeigt. Perönlich nutze ich solche Software nicht wirklich in meiner Praxis. Wenn ich Operationen zum Filtern oder Clustering von großen Datenmengen tue, dann tue ich das meistens in Python mit Bibliotheken, die mit großen Datenmengen arbeiten können. Da ich das oft tue, bin ich mit Python auch schneller unterwegs bei der Datenanalyse als mit Software mit einer GUI. Ich kann aber komplett nachvollziehen, dass Software mit einr GUI für Personen, die nicht oft programieren, von Vorteil ist. Was ich aber sehr schön fand und auch prktisch war der Abgleich von den Daten mit anderen Datensätze (z.B. dem Datensatz der DNB).</p><p>Bei Metafacture war mein Eindruck sehr ähnlich. Ich fand aber das Einlesen eines Datensatzes (z.B in JSON) und des exportieren in einem anderen Datenformat sehr praktisch. Ansonsten fand ich persönlich nciht viel Nutzen darin für meine alltägliche Arbeit. Das kann sich aber noch ändern, kann sein.</p>"
+      "schema:references": [
+        {"@id": "portfolio:openrefine-user-manual"},
+        {"@id": "portfolio:metafacture-tutorial"}
+      ],
+      "schema:content": "<p>Unverzichtbar sind Werkzeuge, mit denen sich Daten ansehen, bearbeiten, analysieren und verarbeiten lassen. Dabei wurden unterschiedliche Softwares gezeigt und zwei davon haben wir in einem kleinen Workshop selbst ausprobiert.</p><br><p>Am letzten Tag des Teilmoduls fand ein Workshop zu Open Refine und Metafacture statt. Bei Open Refine wurden verschiedene Funktionen anhand der Dokumentation gezeigt und ausprobiert. Bei Metafacture wurden die Funktionen anhand eines Tutorials gezeigt. Persönlich nutze ich solche Software in meiner Praxis nicht wirklich. Wenn ich Operationen zum Filtern oder Clustering großer Datenmengen durchführe, dann mache ich das meistens in Python mit Bibliotheken, die mit großen Datenmengen arbeiten können. Da ich das oft tue, bin ich mit Python bei der Datenanalyse auch schneller als mit Software mit einer GUI. Ich kann aber nachvollziehen, dass eine GUI-Software für Personen, die nicht oft programmieren, von Vorteil ist. Sehr praktisch fand ich den Abgleich der Daten mit anderen Datensätzen (z. B. dem Datensatz der DNB).</p><br><p>Bei Metafacture war mein Eindruck ähnlich. Ich fand das Einlesen eines Datensatzes (z. B. in JSON) und das Exportieren in einem anderen Datenformat aber sehr praktisch. Ansonsten konnte ich für meine alltägliche Arbeit keinen großen Nutzen daraus ziehen. Das kann sich aber noch ändern.</p><br><p>Am Ende folgte eine kleine Diskussion, die mehr oder weniger genau in diese Richtung ging. Einerseits hat man das Potenzial der Software gesehen, aber da sie nur im Nischenbereich von sehr wenigen Leuten eingesetzt wird, ist es fragwürdig, wieso man sie überhaupt lernen sollte. Vor allem, da man sich erst mit der Software auseinandersetzen müsste, da sie nicht ganz unkomplex ist. Ich glaube, die in der Gruppe, die täglich programmieren, sind es eher gewohnt, solche Operationen mit Python und Pandas durchzuführen (solange der Speicher es erlaubt), während die anderen das Problem haben, dass sie in ihrer alltäglichen Arbeit einfach keine Verwendung für solche Daten-Software finden, da sie nicht täglich mit Daten arbeiten."
     },
     {
       "@id": "portfolio:aufgabe-1",
@@ -157,7 +170,10 @@
       "@id": "portfolio:tracy-arndt",
       "@type": "schema:Person",
       "schema:name": "Tracy Arndt",
-      "schema:jobTitle": "Dozentin"
+      "schema:jobTitle": "Dozentin",
+      "schema:affiliation": {
+        "@id": "portfolio:th-wildau"
+      }
     },
     {
       "@id": "portfolio:th-wildau",
@@ -170,15 +186,19 @@
     {
       "@id": "portfolio:wit",
       "@type": "schema:EducationalOrganization",
-      "schema:name": "Wildau Institue of Technology"
+      "schema:name": "Wildau Institue of Technology",
+      "schema:isPartOf": [
+        {"@id": "portfolio:th-wildau"}
+      ]
     },
     {
       "@id": "portfolio:studiengang",
       "@type": "schema:EducationalOccupationalProgram",
       "schema:name": "Bibliotheksinformatik",
-      "schema:provider": {
-        "@id": "portfolio:th-wildau"
-      },
+      "schema:provider": [
+        {"@id": "portfolio:th-wildau"},
+        {"@id": "portfolio:wit"}
+      ],
       "hasPart": {
         "@id": "portfolio:modul"
       }
@@ -187,7 +207,15 @@
       "@id": "portfolio:modul",
       "@type": "schema:Course",
       "schema:name": "Schnittstellen und Datenformate",
-      "schema:courseCode": "SuD"
+      "schema:isPartOf": [
+        {"@id": "portfolio:studiengang"}
+      ],
+      "schema:teacher": {
+        "@id": "portfolio:tracy-arndt"
+      },
+      "schema:student": {
+        "@id": "portfolio:patryk"
+      }
     },
     {
       "@id": "portfolio:datenformate-gbv",
@@ -327,6 +355,69 @@
       "@type": "schema:CreativeWork",
       "schema:name": "Validating RDF Data",
       "schema:url": "https://book.validatingrdf.com/",
+      "schema:inLanguage": "en"
+    },
+    {
+      "@id": "portfolio:sparql-overview",
+      "@type": "schema:CreativeWork",
+      "schema:name": "SPARQL 1.1 Overview",
+      "schema:url": "https://www.w3.org/TR/sparql11-overview/",
+      "schema:inLanguage": "en"
+    },
+    {
+      "@id": "portfolio:wikidata-sparql-tutorial",
+      "@type": "schema:CreativeWork",
+      "schema:name": "Wikidata: SPARQL Tutorial",
+      "schema:url": "https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial",
+      "schema:inLanguage": "en"
+    },
+    {
+      "@id": "portfolio:wikidata-sparql-query-service",
+      "@type": "schema:CreativeWork",
+      "schema:name": "Wikidata:SPARQL query service/queries/examples",
+      "schema:url": "https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples",
+      "schema:inLanguage": "en"
+    },
+    {
+      "@id": "portfolio:sparql-by-example",
+      "@type": "schema:CreativeWork",
+      "schema:name": "SPARQL By Example: The Cheat Sheet",
+      "schema:url": "https://www.iro.umontreal.ca/~lapalme/ift6281/sparql-1_1-cheat-sheet.pdf",
+      "schema:inLanguage": "en"
+    },
+    {
+      "@id": "portfolio:wikibooks-sparql",
+      "@type": "schema:CreativeWork",
+      "schema:name": "SPARQL",
+      "schema:url": "https://en.wikibooks.org/wiki/SPARQL",
+      "schema:inLanguage": "en"
+    },
+    {
+      "@id": "portfolio:sparql-tutorial",
+      "@type": "schema:CreativeWork",
+      "schema:name": "SPARQL Tutorial",
+      "schema:url": "https://jena.apache.org/tutorials/sparql.html",
+      "schema:inLanguage": "en"
+    },
+    {
+      "@id": "portfolio:learning-sparql",
+      "@type": "schema:CreativeWork",
+      "schema:name": "Learning SPARQL: Querying and Updating with SPARQL",
+      "schema:url": "https://www.oreilly.com/library/view/learning-sparql-2nd/9781449371449/",
+      "schema:inLanguage": "en"
+    },
+    {
+      "@id": "portfolio:openrefine-user-manual",
+      "@type": "schema:CreativeWork",
+      "schema:name": "OpenRefine user manual",
+      "schema:url": "https://openrefine.org/docs",
+      "schema:inLanguage": "en"
+    },
+    {
+      "@id": "portfolio:metafacture-tutorial",
+      "@type": "schema:CreativeWork",
+      "schema:name": "Metafacture Tutorial",
+      "schema:url": "https://metafacture.github.io/metafacture-tutorial/",
       "schema:inLanguage": "en"
     }
   ]
