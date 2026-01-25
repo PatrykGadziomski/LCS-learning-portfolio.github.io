@@ -16,7 +16,10 @@
       "schema:about": {
         "@id": "portfolio:modul"
       },
-      "schema:content": "<h2>Wilkommen auf meinem Lernportfolio!</h2><p>Dieses Portfolio dient der Dokumentation meiner Lernreise im Modul Schnittstellen und Datenformate im Studiengang Biliotheksinformatik an der Technischen Hochschule Wildau. Hier sammle ich Notizen und Erkenntnisse zu verschiedenen Themen aus dem Modul.</p><br><p>Das Besondere an diesem Lernportfolio ist die Integration eines Knowledge Graphs auf der rechten Seite. Der Graph visualisiert die Struktur und Beziehungen zwischen den verschiedenen Notizen, ähnlich wie in Obsidian (Keine Werbung! Aber eine sehr tolle Software ;)).</p><br><p>Jeder Knoten repräsentiert eine Notiz, und die Verbindungen zeigen, wie die Themen miteinander zusammenhängen. Klicke auf einen Knoten im Graph, um direkt zum entsprechenden Artikel zu springen!</p><br><p>Der Aufbau dieses Lerportfolios ist in zeitliche Abschnitte aufgeteilt, je nach den Terminen, an dennen die Vorlesungen stattfanden. In diesen wird kurz zusammengefasst was an diesen Tagen stattfand und was ich gelernt habe.</p><br><p>Bei der technischen Umsetzung dieses Lernportfolios wurden Claude (ANTHROPIC) und Euria (INFOMANIAK) eingesetzt um die Grundlegenden FUnktionalitäten zu generieren. Weitere Funktionen, Strukturierung und Datenkuration wurde durch den Entwickler durchgeführt. Der Text in idesem Portfolio wurde ohne Hilfe der Sprachmodelle erstellt.</p><br><p>Folgende Fragen werden am Ende noch man als zussamfassendes Fazi beantortet:</p><br><ul style='padding-left: 15px;'><li>Was haben Sie gelernt (inhaltlich, persönlich, sonstiges)?</il><li>Was war ihr größter Lerngewinn?</li><li>Was war besonders überraschend? Was hat Sie irritiert?</li><li>Wo sehen Sie für sich noch Bedarf an Weiterbildung zum Thema Datenformate? Was nehmen Sie sich für die nächste Zeit vor?</li></ul>"
+      "schema:references": [
+        {"@id": "portfolio:lernportfolio"}
+      ],
+      "schema:content": "<h2>Wilkommen auf meinem Lernportfolio!</h2><p>Dieses Portfolio dient der Dokumentation meiner Lernreise im Modul Schnittstellen und Datenformate im Studiengang Biliotheksinformatik an der Technischen Hochschule Wildau. Hier sammle ich Notizen und Erkenntnisse zu verschiedenen Themen aus dem Modul.</p><br><p>Aber was ist ein Lernportfolio?<br><i>'Das Lernportfolio bezeichnet eine Sammlung von Dokumenten (z.B. Arbeitsblätter, Protokolle, Essays) oder Materialien [...], die zu einem bestimmten Zeitpunkt unter Bezug auf ein inhaltlich umrissenes Lehrgebiet die Leistungen [...] dokumentieren und charakterisieren.'</i> <a href='https://www.fachportal-paedagogik.de/literatur/vollanzeige.html?FId=3208887' target='_blank'>[1]</a></p><br><p>Das Besondere an diesem Lernportfolio ist die Integration eines Knowledge Graphs auf der rechten Seite. Der Graph visualisiert die Struktur und Beziehungen zwischen den verschiedenen Notizen, ähnlich wie in Obsidian (Keine Werbung! Aber eine sehr tolle Software ;)).</p><br><p><a href='https://obsidian.md/' target='_blank'>--> Obsidian</a></p><br><p>Jeder Knoten repräsentiert eine Notiz, und die Verbindungen zeigen, wie die Themen miteinander zusammenhängen. Klicke auf einen Knoten im Graph, um direkt zum entsprechenden Artikel zu springen!</p><br><p>Der Aufbau dieses Lerportfolios ist in zeitliche Abschnitte aufgeteilt, je nach den Terminen, an dennen die Vorlesungen stattfanden. In diesen wird kurz zusammengefasst was an diesen Tagen stattfand und was ich gelernt habe.</p><br><p>Bei der technischen Umsetzung dieses Lernportfolios wurden Claude (ANTHROPIC) und Euria (INFOMANIAK) eingesetzt um die Grundlegenden FUnktionalitäten zu generieren. Weitere Funktionen, Strukturierung und Datenkuration wurde durch den Entwickler durchgeführt. Der Text in idesem Portfolio wurde ohne Hilfe der Sprachmodelle erstellt.</p><br><p>Folgende Fragen werden am Ende noch man als zussamfassendes Fazi beantortet:</p><br><ul style='padding-left: 15px;'><li>Was haben Sie gelernt (inhaltlich, persönlich, sonstiges)?</il><li>Was war ihr größter Lerngewinn?</li><li>Was war besonders überraschend? Was hat Sie irritiert?</li><li>Wo sehen Sie für sich noch Bedarf an Weiterbildung zum Thema Datenformate? Was nehmen Sie sich für die nächste Zeit vor?</li></ul>"
     },
     {
       "@id": "portfolio:vorlesung-1",
@@ -426,11 +429,18 @@
       "schema:inLanguage": "en"
     },
     {
-    "@id": "portfolio:linked-data",
-    "@type": "schema:CreativeWork",
-    "schema:name": "Linked Data",
-    "schema:url": "https://www.w3.org/DesignIssues/LinkedData.html",
-    "schema:inLanguage": "en"
-  }
+      "@id": "portfolio:linked-data",
+      "@type": "schema:CreativeWork",
+      "schema:name": "Linked Data",
+      "schema:url": "https://www.w3.org/DesignIssues/LinkedData.html",
+      "schema:inLanguage": "en"
+    },
+    {
+      "@id": "portfolio:lernportfolio",
+      "@type": "schema:CreativeWork",
+      "schema:name": "Lernportfolio, Lerntagebuch und Peer Review als kompetenzorientierte und diversitätsgerechte Prüfungsformate",
+      "schema:url": "https://www.fachportal-paedagogik.de/literatur/vollanzeige.html?FId=3208887",
+      "schema:inLanguage": "de"
+    }
   ]
 }
